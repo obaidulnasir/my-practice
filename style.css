@@ -1,0 +1,26 @@
+body{
+    font-family:'Times New Roman', Times, serif;
+}
+.main-heading{
+    color:white;
+    text-align: center;
+    background-image: linear-gradient(yellow, gold);
+}
+.box-shadow-section{
+    display:flex;
+}
+.box{
+    width:30%;
+    margin:1.5%;
+    padding:20px;
+    box-shadow: 10px 10px 20px gold;
+    border-right: 6px solid;
+    border-radius: 5px;
+    border-image: linear-gradient(orange, tomato);
+    border-image-slice: 2;
+}
+
+.author-name{
+    color:white;
+    background-color: gold;
+}
